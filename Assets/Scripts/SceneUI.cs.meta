@@ -3,7 +3,15 @@ guid: ce2a06dad2e52ca49aa8f2d1a1cdadda
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - StartingScene: {instanceID: 0}
+  - ButtonPrefab: {fileID: 664888650400565047, guid: d851916b22a79aa4b88c6484ad34041e, type: 3}
+  - DescriptionText: {instanceID: 0}
+  - ChoicesContent: {instanceID: 0}
+  - LeftCharacterImage: {instanceID: 0}
+  - RightCharacterImage: {instanceID: 0}
+  - BackgroundImage: {instanceID: 0}
+  - MusicAudioSource: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

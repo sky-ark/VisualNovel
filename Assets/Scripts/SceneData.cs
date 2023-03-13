@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Data/Scene", fileName = "New Scene")]
 public class SceneData : ScriptableObject {
 
+    public string SpeakerName;
     public string Description;
     public List<ChoiceData> ChoiceDatas;
     public Sprite LeftCharacter;

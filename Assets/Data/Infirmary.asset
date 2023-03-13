@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc99952b55017145a5e9efd14b2315c, type: 3}
+  m_Name: Infirmary
+  m_EditorClassIdentifier: 
+  SpeakerName: Nurse
+  Description: "D\xE9tenu vous \xEAtes enfin r\xE9veill\xE9 ! Vous avez pris un sale
+    coup."
+  ChoiceDatas:
+  - ChoiceText: Quoi ?
+    ChoiceSceneData: {fileID: 11400000, guid: 28d48188e419c904e826c65615f0b4fe, type: 2}
+  LeftCharacter: {fileID: 0}
+  RightCharacter: {fileID: 0}
+  Background: {fileID: 21300000, guid: 8ab6bb73986db4b4080f840784d0d1f7, type: 3}
+  Music: {fileID: 0}

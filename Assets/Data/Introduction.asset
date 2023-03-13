@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc99952b55017145a5e9efd14b2315c, type: 3}
   m_Name: Introduction
   m_EditorClassIdentifier: 
-  Description: 
+  SpeakerName: "Co-d\xE9tenu"
+  Description: "Vous vous trouvez dans une cellule de prison, il vous faut parvenir
+    \xE0 vous \xE9chapper, deux solutions s'offrent \xE0 vous, que choisissez vous
+    ?"
   ChoiceDatas:
-  - ChoiceText: 
+  - ChoiceText: Oui, allons y
     ChoiceSceneData: {fileID: 0}
+  - ChoiceText: 'Non, surement pas ! '
+    ChoiceSceneData: {fileID: 11400000, guid: 65bf719943758534b98f33557d35e30a, type: 2}
   LeftCharacter: {fileID: 0}
-  RightCharacter: {fileID: 0}
-  Background: {fileID: 0}
+  RightCharacter: {fileID: 21300000, guid: fd8279dfdefc97b46be4b25b2b91979c, type: 3}
+  Background: {fileID: 21300000, guid: b42e68abad3b7c1428bea0bac6a3ad1e, type: 3}
   Music: {fileID: 0}

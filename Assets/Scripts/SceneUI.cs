@@ -9,6 +9,7 @@ public class SceneUI : MonoBehaviour {
     public GameObject ButtonPrefab;
     
     [Header("References UI")]
+    public TMP_Text SpeakerName;
     public TMP_Text DescriptionText;
     public Transform ChoicesContent;
     public Image LeftCharacterImage;
@@ -21,6 +22,13 @@ public class SceneUI : MonoBehaviour {
     }
 
     public void Apply(SceneData data) {
+        if (string.IsNullOrWhiteSpace(data.SpeakerName) || data.SpeakerName == "") {
+            SpeakerName.transform.parent.gameObject.SetActive(false);
+        }
+        else {
+            SpeakerName.transform.parent.gameObject.SetActive(true);
+            SpeakerName.text = data.SpeakerName;
+        }
         DescriptionText.text = data.Description;
         // ChoicesContent
         foreach (Transform child in ChoicesContent) {
