@@ -15,6 +15,7 @@ public class SceneUI : MonoBehaviour {
     public Image LeftCharacterImage;
     public Image RightCharacterImage;
     public Image BackgroundImage;
+    public Image CollectibleBox;
     public AudioSource MusicAudioSource;
 
     private void Awake() {
@@ -30,6 +31,7 @@ public class SceneUI : MonoBehaviour {
             SpeakerName.text = data.SpeakerName;
         }
         DescriptionText.text = data.Description;
+        
         // ChoicesContent
         foreach (Transform child in ChoicesContent) {
             Destroy(child.gameObject);
@@ -38,9 +40,24 @@ public class SceneUI : MonoBehaviour {
             GameObject instantiate = Instantiate(ButtonPrefab, ChoicesContent);
             instantiate.GetComponentInChildren<TMP_Text>().text = choiceData.ChoiceText;
             instantiate.GetComponent<Button>().onClick.AddListener(delegate {
-                Apply(choiceData.ChoiceSceneData);
+                if (choiceData.haveTheCollectible)
+                {
+                    CollectibleBox.transform.parent.gameObject.SetActive(true);
+                    CollectibleBox.sprite = choiceData.Collectible;
+                }
+
+                if (choiceData.useTheCollectible)
+                {
+                    CollectibleBox.transform.parent.gameObject.SetActive(false);
+                    choiceData.haveTheCollectible = false;
+                }
+                    Apply(choiceData.ChoiceSceneData);
+                
             });
         }
+        
+        
+        
         // Characters
         if (data.LeftCharacter == null) {
             LeftCharacterImage.gameObject.SetActive(false);
@@ -60,7 +77,8 @@ public class SceneUI : MonoBehaviour {
         // Background
         BackgroundImage.sprite = data.Background;
         // Music
-        MusicAudioSource.clip = data.Music;
+        if(data.Music != null) 
+            MusicAudioSource.clip = data.Music;
     }
     
 }
