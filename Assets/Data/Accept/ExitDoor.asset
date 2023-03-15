@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc99952b55017145a5e9efd14b2315c, type: 3}
+  m_Name: ExitDoor
+  m_EditorClassIdentifier: 
+  SpeakerName: Gardien 2
+  Description: "D\xE9tenu que faites vous l\xE0 ? "
+  ChoiceDatas:
+  - ChoiceText: "Je viens vous pr\xE9venir ! Un gardien a \xE9t\xE9 tu\xE9 et je
+      pense que mon voisin de cellule est le coupable ! "
+    ChoiceSceneData: {fileID: 11400000, guid: f9c53ab6116d13a4694906d1e74b5f3b, type: 2}
+    Collectible: {fileID: 0}
+    CollectibleName: 
+    haveTheCollectible: 0
+    useTheCollectible: 0
+  LeftCharacter: {fileID: 21300000, guid: 6d74bd770e89d0444a2b657aa1fd0edc, type: 3}
+  RightCharacter: {fileID: 0}
+  Background: {fileID: 21300000, guid: 63739aa73ac5287418c93e5a73ff314d, type: 3}
+  Music: {fileID: 0}

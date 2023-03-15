@@ -16,7 +16,7 @@ MonoBehaviour:
   Description: "Hey d\xE9tenu, tu m'as l'air \xE9trange, que t'arrive t'il ? "
   ChoiceDatas:
   - ChoiceText: Planter le Gardien
-    ChoiceSceneData: {fileID: 11400000, guid: ed5db2095ee3ddb42a6b7c66b8b848df, type: 2}
+    ChoiceSceneData: {fileID: 11400000, guid: 22dbe40ff2a8d2f418a8a373a230161f, type: 2}
     Collectible: {fileID: 0}
     CollectibleName: 
     haveTheCollectible: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc99952b55017145a5e9efd14b2315c, type: 3}
+  m_Name: ExitDoor2
+  m_EditorClassIdentifier: 
+  SpeakerName: 'Gardien 2 '
+  Description: Ok ! restez ici je vais allez voir !
+  ChoiceDatas:
+  - ChoiceText: 'Ok ! '
+    ChoiceSceneData: {fileID: 11400000, guid: 6a3b6f16681fd644c920c327890a2f07, type: 2}
+    Collectible: {fileID: 0}
+    CollectibleName: 
+    haveTheCollectible: 1
+    useTheCollectible: 0
+  LeftCharacter: {fileID: 21300000, guid: 6d74bd770e89d0444a2b657aa1fd0edc, type: 3}
+  RightCharacter: {fileID: 0}
+  Background: {fileID: 21300000, guid: 63739aa73ac5287418c93e5a73ff314d, type: 3}
+  Music: {fileID: 0}
