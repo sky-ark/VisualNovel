@@ -21,12 +21,6 @@ MonoBehaviour:
     CollectibleName: 
     haveTheCollectible: 0
     useTheCollectible: 1
-  - ChoiceText: 'Non tout va bien ! '
-    ChoiceSceneData: {fileID: 11400000, guid: ed5db2095ee3ddb42a6b7c66b8b848df, type: 2}
-    Collectible: {fileID: 0}
-    CollectibleName: 
-    haveTheCollectible: 0
-    useTheCollectible: 0
   - ChoiceText: "D\xE9noncer le plan du Co-d\xE9tenu"
     ChoiceSceneData: {fileID: 11400000, guid: ed5db2095ee3ddb42a6b7c66b8b848df, type: 2}
     Collectible: {fileID: 0}

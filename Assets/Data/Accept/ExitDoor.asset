@@ -18,9 +18,9 @@ MonoBehaviour:
   - ChoiceText: "Je viens vous pr\xE9venir ! Un gardien a \xE9t\xE9 tu\xE9 et je
       pense que mon voisin de cellule est le coupable ! "
     ChoiceSceneData: {fileID: 11400000, guid: f9c53ab6116d13a4694906d1e74b5f3b, type: 2}
-    Collectible: {fileID: 0}
+    Collectible: {fileID: 21300000, guid: 70e59a10461130448abbafc69358373d, type: 3}
     CollectibleName: 
-    haveTheCollectible: 0
+    haveTheCollectible: 1
     useTheCollectible: 0
   LeftCharacter: {fileID: 21300000, guid: 6d74bd770e89d0444a2b657aa1fd0edc, type: 3}
   RightCharacter: {fileID: 0}

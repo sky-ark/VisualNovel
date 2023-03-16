@@ -12,12 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc99952b55017145a5e9efd14b2315c, type: 3}
   m_Name: Infirmary
   m_EditorClassIdentifier: 
-  SpeakerName: Nurse
-  Description: "D\xE9tenu vous \xEAtes enfin r\xE9veill\xE9 ! Vous avez pris un sale
-    coup."
+  SpeakerName: 
+  Description: "Apr\xE8s  avoir \xE9t\xE9 tabass\xE9 vous finissez \xE0 l'infirmerie,
+    malheureusement vous avez \xE9t\xE9 vaccin\xE9 pendant votre sommeil."
   ChoiceDatas:
-  - ChoiceText: Quoi ?
-    ChoiceSceneData: {fileID: 11400000, guid: 28d48188e419c904e826c65615f0b4fe, type: 2}
+  - ChoiceText: Recommencer
+    ChoiceSceneData: {fileID: 11400000, guid: 314c091e098938744afb52868dd4a264, type: 2}
+    Collectible: {fileID: 0}
+    CollectibleName: 
+    haveTheCollectible: 0
+    useTheCollectible: 0
   LeftCharacter: {fileID: 0}
   RightCharacter: {fileID: 0}
   Background: {fileID: 21300000, guid: 8ab6bb73986db4b4080f840784d0d1f7, type: 3}

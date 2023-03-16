@@ -12,10 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc99952b55017145a5e9efd14b2315c, type: 3}
   m_Name: Corridor2
   m_EditorClassIdentifier: 
-  SpeakerName: 
-  Description: 
-  ChoiceDatas: []
-  LeftCharacter: {fileID: 0}
+  SpeakerName: 'Gardien '
+  Description: "Wha merci de m'avoir mis au courant ! Allez je r\xE9cup\xE8re ton
+    arme et pour te remercier j'te file les clefs pour que tu puisses t'\xE9vader,
+    si on me demande j'dirai que c'est un coup de ton voisin de cellule il va prendre
+    cher. "
+  ChoiceDatas:
+  - ChoiceText: Accepter les clefs et rendre le couteau
+    ChoiceSceneData: {fileID: 11400000, guid: 6a3b6f16681fd644c920c327890a2f07, type: 2}
+    Collectible: {fileID: 21300000, guid: 70e59a10461130448abbafc69358373d, type: 3}
+    CollectibleName: 
+    haveTheCollectible: 1
+    useTheCollectible: 0
+  LeftCharacter: {fileID: 21300000, guid: 014a3a9b2e1fd31418a5e49cbe116bf7, type: 3}
   RightCharacter: {fileID: 0}
   Background: {fileID: 21300000, guid: c69636e2cf26b7c4d935e32403abc237, type: 3}
   Music: {fileID: 0}
